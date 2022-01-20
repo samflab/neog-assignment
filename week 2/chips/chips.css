@@ -1,0 +1,34 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+h3{
+    padding: 1.2rem;
+}
+
+.chips-container{
+    width: 80%;
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 10px;
+    row-gap: 10px;
+    height: auto;
+}
+
+.chips{
+    background-color: rgb(226, 226, 226);
+    padding: 2px 12px;
+    border-radius: 50px;
+}

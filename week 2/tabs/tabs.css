@@ -1,0 +1,48 @@
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  margin: 1rem;
+}
+h2{
+  margin-bottom: 1.5rem;
+}
+.tab {
+  overflow: hidden;
+  color: #424242;
+}
+
+.tab button {
+  background-color: aliceblue;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 1rem;
+}
+
+.tab button:hover {
+  background-color: rgb(195, 224, 250);
+  color: rgb(22, 81, 133);
+}
+
+.tab button.active {
+  background-color: rgb(195, 224, 250);
+  color: rgb(22, 81, 133);
+  border-bottom: rgb(22, 81, 133) solid 3px;
+  font-weight: 600;
+}
+
+.tabcontent {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgb(22 81 133) 10px 10px 20px -15px;
+  display: none;
+  padding: 0.5rem 1rem;
+  width: 50vw;
+  height: 30vh;
+}

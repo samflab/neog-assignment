@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards in HTML</title>
+    <link rel="stylesheet" href="card.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="card-component">
+      <!----------------------------CONTAINER BASIC------------------------------------------>
+      <div class="container-basic">
+        <div class="image-container-basic">
+          <img
+            src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+            class="card-img-basic"
+          />
+        </div>
+        <div class="content-container-basic">
+          <h2 class="card-title-basic">Our Changing Planet</h2>
+          <h3 class="card-subtitle-basic">by Kurt Wagner</h3>
+          <div class="card-desc-basic">
+            Visit ten places on our planet that are undergoing the biggest
+            changes today.
+          </div>
+        </div>
+        <div class="button-container-basic">
+          <button class="btn-basic">READ</button>
+          <button class="btn-basic">BOOKMARK</button>
+        </div>
+      </div>
+
+      <!--------------------------CONTAINER WITH BUTTONS AND ICONS------------------------>
+      <div class="container-basic">
+        <div class="image-container-basic">
+          <img
+            src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+            class="card-img-basic"
+          />
+        </div>
+        <div class="content-container-with-icons">
+          <h2 class="card-title-basic">Our Changing Planet</h2>
+          <h3 class="card-subtitle-basic">by Kurt Wagner</h3>
+          <div class="card-desc-basic">
+            Visit ten places on our planet that are undergoing the biggest
+            changes today.
+          </div>
+        </div>
+        <div class="button-icon-container">
+          <div class="button-container">
+            <button class="btn-with-icons">READ</button>
+            <button class="btn-with-icons">BOOKMARK</button>
+          </div>
+          <div class="icon-container">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-share-alt"></i>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+      </div>
+      <!------------------------TEXT OVER MEDIA----------------------------------------------->
+      <div class="container-basic container-text-over-media">
+        <div class="image-text-over-media">
+          <img
+            src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+            class="card-img-basic"
+          />
+        </div>
+        <div class="content-container-with-icons">
+          <h2 class="card-title-basic title-text-over-media">
+            Our Changing Planet
+          </h2>
+          <h3 class="card-subtitle-basic subtitle-text-over-media">
+            by Kurt Wagner
+          </h3>
+          <div class="card-desc-basic">
+            Visit ten places on our planet that are undergoing the biggest
+            changes today.
+          </div>
+        </div>
+        <div class="button-icon-container">
+          <div class="button-container">
+            <button class="btn-with-icons">READ</button>
+            <button class="btn-with-icons">BOOKMARK</button>
+          </div>
+          <div class="icon-container">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-share-alt"></i>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------HORIZONTAL CARD--------------------------------------->
+      <div class="container-basic card-horizontal">
+        <div class="horizontal">
+          <div class="image-container-horz">
+            <img
+              src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"
+              class="card-img-basic img-horz"
+            />
+          </div>
+          <div class="content-container-basic">
+            <h2 class="card-title-basic">Our Changing Planet</h2>
+            <h3 class="card-subtitle-basic">by Kurt Wagner</h3>
+            <div class="card-desc-basic desc-horizontal">
+              Visit ten places on our planet that are undergoing the biggest
+              changes today.
+            </div>
+          </div>
+        </div>
+        <div class="button-icon-container">
+          <div class="button-container-basic">
+            <button class="btn-basic btn-horz">READ</button>
+            <button class="btn-basic btn-horz">BOOKMARK</button>
+          </div>
+
+          <div class="icon-horz">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-share-alt"></i>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="card.js"></script>
+  </body>
+</html>

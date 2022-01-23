@@ -1,0 +1,24 @@
+.image-text-over-media {
+    position: relative;
+  }
+  .title-text-over-media {
+    color: #ffffff;
+    position: absolute;
+    transform: translateY(-5rem);
+  }
+  
+  .subtitle-text-over-media {
+    color: #ffffff;
+    position: absolute;
+    transform: translateY(-3.3rem);
+  }
+  
+  .container-text-over-media {
+    background-color: #ffffff;
+    box-shadow: rgb(22 81 133) 10px 10px 20px -15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 350px;
+  }

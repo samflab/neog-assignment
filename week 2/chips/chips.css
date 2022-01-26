@@ -1,34 +1,51 @@
-*{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+:root {
+  --primary: #183040;
+  --secondary: #c3e0fa;
+}
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: aliceblue;
+  font-size: 1rem;
 }
 
-body{
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3 {
+  padding: 1.2rem;
+}
+
+.chips-container {
+  width: 80%;
+  background-color: var(--primary);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 0.2rem;
+  height: auto;
+}
+
+.chips {
+  background-color: var(--secondary);
+  color: var(--primary);
+  font-size: 1.2rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 50px;
+}
+
+.stacked{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
-h3{
-    padding: 1.2rem;
-}
-
-.chips-container{
-    width: 80%;
-    background-color: rgb(179, 179, 179);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px 10px;
-    row-gap: 10px;
-    height: auto;
-}
-
-.chips{
-    background-color: rgb(226, 226, 226);
-    padding: 2px 12px;
-    border-radius: 50px;
+    flex-direction: column;
+    width: auto;
+    padding: 1rem 3rem;
+    gap:1rem;
 }

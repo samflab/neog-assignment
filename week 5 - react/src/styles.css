@@ -1,0 +1,15 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.text {
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.card-container {
+  display: flex;
+  gap: 2rem;
+}

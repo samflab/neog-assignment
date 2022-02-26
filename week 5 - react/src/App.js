@@ -4,8 +4,9 @@
 // import Figma from "./Figma";
 // import ShowPassword from "./ShowPassword";
 // import Password from "./Password";
-import Router from "./Router/Router";
+// import Router from "./Router/Router";
 import "./styles.css";
+import ToastMessage from "./Toast";
 // import Twitter from "./Twitter";
 
 export default function App() {
@@ -18,7 +19,9 @@ export default function App() {
       {/* <ShowPassword /> */}
       {/* <Figma /> */}
       {/* <Cart /> */}
-      <Router/>
+      {/* <Router/> */}
+      {/* <Toast/> */}
+      <ToastMessage/>
     </div>
   );
 }
